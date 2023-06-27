@@ -1,0 +1,61 @@
+h1{
+    font-size: 3rem;
+}
+.container{
+    max-width: 900px ; 
+    margin : 0 auto  ;
+    padding : 0 20px ; 
+    display: flex ;
+    justify-content:  center ;
+    align-items: center ;
+    height: 100vh;
+    /* background: violet; */
+}
+
+.counter-div{
+    width : 40rem;
+    border: 1px gray;
+    padding : 1rem;
+    background-color: rgb(243, 166, 231);
+    color : black;
+    text-align: center;
+    border-radius: 10px ;
+}
+
+.counter-div > * {
+    margin-bottom: 4rem;
+}
+
+.count{
+    font-size: 4rem;
+}
+
+.buttons button{
+    padding : 1rem;
+    margin : 0 1rem;
+    font-size : 1.5rem;
+    font-weight: 700;
+    border : none;
+    outline : none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#Decrement {
+    background-color: rgb(96, 96, 253);
+    color: white;
+  }
+  
+#Reset {
+    background-color: rgb(239, 239, 107);
+    color: black;
+  }
+  
+  #Increment {
+    background-color: rgb(230, 73, 73);
+    color: white;
+  }
+  
+
+ 
